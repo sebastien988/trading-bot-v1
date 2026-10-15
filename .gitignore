@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+backtests/gap_and_go/.cache/
+*.pkl
