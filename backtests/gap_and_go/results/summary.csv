@@ -1,0 +1,4 @@
+run,trades,win_rate_pct,avg_r,profit_factor,max_dd_dollars,max_dd_r,pnl,expectancy_at_2k,start,end,sessions,note
+spec_5m_60d,11,72.7,0.317,3.14,-2005.0,-1.004,6951.9,634.61,2026-07-22,2026-10-14,60,written rules on 5-minute bars
+prototype_compat_5m,25,68.0,0.396,4.57,-2005.0,-1.004,19784.61,792.93,2026-07-22,2026-10-14,60,"prototype fill rules (no chase-skip, 5-session warmup, 15:45 bar extremes)"
+coarse_1h_730d,140,53.6,0.031,1.19,-9026.38,-4.522,8660.46,62.29,2023-11-15,2026-10-14,730,yfinance 1-hour bars; first-hour range is a coarse proxy for the 15-minute range
